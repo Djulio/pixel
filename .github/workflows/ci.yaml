@@ -51,6 +51,9 @@ jobs:
           git config --local user.email "somemail@domain.com"
           git config --local user.name "github-actions[bot]"
           git update-index -q --refresh
+          git add output.png
+          git add overlay.png
+          git add priority.png
           git commit -m "[Generate]" -a
       - name: Push changes
         uses: ad-m/github-push-action@master

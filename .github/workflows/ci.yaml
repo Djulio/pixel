@@ -54,6 +54,7 @@ jobs:
           git add output.png
           git add overlay.png
           git add priority.png
+          git add pixel.json
           git commit -m "[Generate]" -a
       - name: Push changes
         uses: ad-m/github-push-action@master

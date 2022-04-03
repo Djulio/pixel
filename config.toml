@@ -19,17 +19,3 @@ file = "images/levski.png"
 startx = 1577
 starty = 690
 priority = 2
-
-#[[structure]]
-#name = "Old-flag"
-#file = "images/old-flag.png"
-#startx = 481
-#starty = 372
-#priority = 3
-
-#[[structure]]
-#name = "girl"
-#file = "images/girl-1.png"
-#startx = 654
-#starty = 1854
-#priority = 3
